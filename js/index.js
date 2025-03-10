@@ -6,7 +6,7 @@ function sendEmail() {
     To : 'nishikantasahoo774@gmail.com',
     From : document.getElementById("email").value,
     Subject : "Enquiry",
-    Body : "And this is the body"
+    Body : document.getElementById("message").value
   }).then(
     message => alert(message)
   );
