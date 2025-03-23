@@ -140,10 +140,117 @@
 }
 
 @media (max-width: 576px) {
-  .slider_section .detail-box h1 {
-    font-size: 3rem;
+  .heading_container h2 {
+    font-size: 1rem;
   }
 
+  .heading_container p {
+    font-size: 0.75rem;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+  }
+
+  .slider_section {
+    padding: 0px 0 0px 0;
+  }
+
+  .slider_section .detail-box h1 {
+    text-align: left;
+    font-size: 0.75rem;
+  }
+
+  .slider_section .detail-box h1 span {
+    font-size: 1rem;
+  }
+
+  .slider_section .detail-box p {
+    text-align: left;
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+
+  .about_section .detail-box p {
+    font-size: small;
+  }
+
+  .why_choose_us_section .sub-info {
+    font-size: small;
+  }
+  .why_choose_us_section p {
+    font-size: small;
+  }
+  .why_choose_us_section ul {
+    font-size: small;
+  }
+
+  .price_section .heading_box {
+    font-size: small;
+  }
+
+  .price_section .heading_box h4 { 
+    font-size: small;
+  }
+
+  .price_section .heading_box h6 {
+    font-size: small;
+  }
+
+  .price_section .text-box {
+    font-size: small;
+  }
+
+  .price_section .text-box h2 {
+    font-size: medium;
+  }
+
+  .price_section .btn-box a {
+    font-size: small;
+  }
+
+  .exclusive_section .text-box {
+    font-size: small;
+  }
+
+  .deal_section p {
+    font-size: small;
+  }
+  .deal_section .sub-info {
+    font-size: medium;
+  }
+  .deal_section ul {
+    font-size: small;
+  }
+  .why_buy_section .text-list {
+    font-size: small;
+  }
+
+  .contact_section .form_container input {
+    font-size: small;
+    border-radius: 5px;
+  }
+  .contact_section .form_container textarea {
+    font-size: small;
+    border-radius: 5px;
+  }
+  .contact_section .form_container button {
+    font-size: small;
+    border-radius: 5px;
+  }
+
+  .info_section .info_contact h5 {
+    font-size: small;
+    margin-bottom: 0;
+  }
+  .info_section .info_contact p {
+    font-size: small;
+  }
+
+  .footer_section p {
+    font-size: small;
+  }
+  
   .client_section .client_container div#carouselExampleControls {
     padding: 0 5%;
   }

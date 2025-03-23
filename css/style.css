@@ -308,16 +308,10 @@ a:focus {
   font-size: 1.5rem;
 }
 
-.slider_section .detail-box h1 .primary {
+.slider_section .detail-box h1 span {
   color: #0f2480;
   font-size: 3rem;
 }
-
-.slider_section .detail-box h1 .secondary {
-  color: #0f2480;
-  font-size: 2rem;
-}
-
 .slider_section .detail-box p {
   margin-top: 25px;
 }
